@@ -10,7 +10,7 @@ class Button extends Component {
 		const { href, btnText, handleClick } = this.props
 		return(
 				<Link to={href ? href : "/"} className="button" onClick={handleClick}>
-					<span className="button__text text">{btnText}</span>
+					<span className="button__text">{btnText}</span>
 				</Link>
 		)
 	}

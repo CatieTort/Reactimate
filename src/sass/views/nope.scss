@@ -1,9 +1,4 @@
 .wrong {
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
 	background-color: $redish;
 
 	&__title {
@@ -13,7 +8,7 @@
 
 	&__txt {
 		font-size: 2.5rem;
-		text-shadow: 1.5px 1px $light-gray;
+		text-shadow: 1.5px 1px #000;
 	}
 
 }

@@ -3,7 +3,11 @@ $white: #fff;
 $green: #76EE00;
 $gray: #4C4C4C;
 $light-gray: #dbdbdb;
-$redish: #E84855;
+$redish: #E71D36;
+$hot-pink: #ED217C;
+$blue: #090C9B;
+$orange: #FF8300;
+$purple: #590FD8;
 
 html {
 	font-size: 62.5%;
@@ -13,6 +17,14 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2rem;
 
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
 .heading {

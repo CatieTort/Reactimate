@@ -1,12 +1,7 @@
 @import '../shared.scss';
 
 .home {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	background-color: rgba($green, 0.7);
-	height: 100vh;
 
 	&__title {
 		text-shadow: 2px 1px $white;

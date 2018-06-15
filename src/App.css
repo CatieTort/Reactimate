@@ -5,6 +5,13 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem; }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
 .heading {
   font-family: 'Raleway', sans-serif;
   font-size: 4rem; }
@@ -19,6 +26,56 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem; }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem; }
+
+.text {
+  color: #4C4C4C; }
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 20rem;
+  border: none;
+  background-color: #000;
+  margin-top: 5rem;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5.5px;
+  box-shadow: 0rem 1rem 3rem #7e7e7e;
+  transition: all .5s ease; }
+  .button__text {
+    color: #fff;
+    text-align: center; }
+  .button:hover {
+    background-color: #3f3f3f; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
 .heading {
   font-family: 'Raleway', sans-serif;
   font-size: 4rem; }
@@ -27,25 +84,15 @@ body {
   color: #4C4C4C; }
 
 .home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(118, 238, 0, 0.7);
-  height: 100vh; }
+  background-color: rgba(118, 238, 0, 0.7); }
   .home__title {
     text-shadow: 2px 1px #fff; }
 
 .wrong {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #E84855; }
+  background-color: #E71D36; }
   .wrong__title {
     font-size: 5rem;
     margin-bottom: 2rem; }
   .wrong__txt {
     font-size: 2.5rem;
-    text-shadow: 1.5px 1px #dbdbdb; }
+    text-shadow: 1.5px 1px #000; }
