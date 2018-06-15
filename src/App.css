@@ -1,28 +1,51 @@
-.App {
-  text-align: center;
-}
+html {
+  font-size: 62.5%; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem; }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+.heading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem; }
 
-.App-title {
-  font-size: 1.5em;
-}
+.text {
+  color: #4C4C4C; }
 
-.App-intro {
-  font-size: large;
-}
+html {
+  font-size: 62.5%; }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem; }
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem; }
+
+.text {
+  color: #4C4C4C; }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(118, 238, 0, 0.7);
+  height: 100vh; }
+  .home__title {
+    text-shadow: 2px 1px #fff; }
+
+.wrong {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #E84855; }
+  .wrong__title {
+    font-size: 5rem;
+    margin-bottom: 2rem; }
+  .wrong__txt {
+    font-size: 2.5rem;
+    text-shadow: 1.5px 1px #dbdbdb; }

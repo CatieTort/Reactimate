@@ -4,7 +4,9 @@ import React, { Component } from 'react';
 class Home extends Component {
 	render(){
 		return(
-			<div>Home</div>
+			<div className="home">
+				<div className="home__title heading">Home</div>
+			</div>
 		)
 	}
 }

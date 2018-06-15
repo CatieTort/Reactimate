@@ -1,0 +1,12 @@
+@import '../shared.scss';
+
+.button {
+	border: none;
+	background-color: #000;
+	padding: 2.5rem 6rem;
+	text-decoration: none;
+
+	&__text {
+		color: $white;
+	}
+}

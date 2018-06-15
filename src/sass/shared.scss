@@ -1,0 +1,25 @@
+//Variables
+$white: #fff;
+$green: #76EE00;
+$gray: #4C4C4C;
+$light-gray: #dbdbdb;
+$redish: #E84855;
+
+html {
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2rem;
+
+}
+
+.heading {
+	font-family: 'Raleway', sans-serif;
+	font-size: 4rem;
+}
+
+.text {
+	color: $gray;
+}
