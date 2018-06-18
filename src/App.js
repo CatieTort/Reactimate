@@ -15,25 +15,25 @@ class App extends Component {
     return (
       <div className="App">
 	  	<Router>
-		<Route render={({location}) => (
-			<TransitionGroup>
-				<CSSTransition
-					key={location.key}
-					classNames="fade"
-					timeout={500}
-				 >
-					<Switch location={location}>
-						<Route exact path="/" component={Home}/>
-						<Route path="/bouncy" component={Bounce}/>
-						<Route path="/spinny" component={Spin}/>
-						<Route path="/scrolly" component={Scroll}/>
-						<Route path="/slidey" component={Slide}/>
-						<Route path="/end" component={End}/>
-						<Route component={Nope} />
-					</Switch>
-				</CSSTransition>
-			</TransitionGroup>
-		)} />
+			<Route render={({location}) => (
+				<TransitionGroup>
+					<CSSTransition
+						key={location.key}
+						classNames="fade"
+						timeout={1000}
+					 >
+						<Switch location={location}>
+							<Route exact path="/" component={Home}/>
+							<Route path="/bouncy" component={Bounce}/>
+							<Route path="/spinny" component={Spin}/>
+							<Route path="/scrolly" component={Scroll}/>
+							<Route path="/slidey" component={Slide}/>
+							<Route path="/end" component={End}/>
+							<Route component={Nope} />
+						</Switch>
+					</CSSTransition>
+				</TransitionGroup>
+			)} />
 		</Router>
       </div>
     );

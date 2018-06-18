@@ -111,96 +111,6 @@ body {
   right: 25px;
   align-self: flex-end; }
 
-html {
-  font-size: 62.5%; }
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2rem; }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; }
-
-.heading {
-  font-family: 'Raleway', sans-serif;
-  color: #fff;
-  font-size: 6rem;
-  text-align: center;
-  text-shadow: 2px 1px #4C4C4C; }
-
-.text {
-  color: #4C4C4C; }
-
-.nxtBtn {
-  position: fixed;
-  bottom: 15px;
-  right: 25px;
-  align-self: flex-end; }
-
-html {
-  font-size: 62.5%; }
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2rem; }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; }
-
-.heading {
-  font-family: 'Raleway', sans-serif;
-  color: #fff;
-  font-size: 6rem;
-  text-align: center;
-  text-shadow: 2px 1px #4C4C4C; }
-
-.text {
-  color: #4C4C4C; }
-
-.nxtBtn {
-  position: fixed;
-  bottom: 15px;
-  right: 25px;
-  align-self: flex-end; }
-
-html {
-  font-size: 62.5%; }
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2rem; }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; }
-
-.heading {
-  font-family: 'Raleway', sans-serif;
-  color: #fff;
-  font-size: 6rem;
-  text-align: center;
-  text-shadow: 2px 1px #4C4C4C; }
-
-.text {
-  color: #4C4C4C; }
-
-.nxtBtn {
-  position: fixed;
-  bottom: 15px;
-  right: 25px;
-  align-self: flex-end; }
-
 .bounce {
   background-color: #090C9B; }
 
@@ -346,20 +256,6 @@ body {
 .slide {
   background-color: #FF8300; }
 
-.slide-in {
-  animation: slide; }
-
-@keyframes slide {
-  0%, 25% {
-    opacity: .5;
-    transform: translateZ(-500px) translateX(200%); }
-  75% {
-    opacity: .5;
-    transform: translateZ(-500px); }
-  100% {
-    opacity: 1;
-    transform: translateZ(0) translateX(0); } }
-
 html {
   font-size: 62.5%; }
 
@@ -427,16 +323,16 @@ body {
   background-color: #55DBCB; }
 
 .fade-enter {
-  opacity: 0.01;
+  opacity: 0.5;
   z-index: 1; }
 
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity 500ms cubic-bezier(0.32, 0.33, 0.73, 31); }
+  transition: opacity 1s ease-in; }
 
 .fade-exit {
   opacity: 1; }
 
 .fade-exit.fade-exit-active {
   opacity: 0.01;
-  transition: opacity 500ms cubic-bezier(0.06, 0.09, 0, 1.05); }
+  transition: opacity 1s ease-out; }
