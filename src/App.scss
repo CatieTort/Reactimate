@@ -2,11 +2,20 @@
 
 
 .fade-enter {
-	opacity: 0;
+	opacity: 0.01;
 	z-index: 1;
 }
 
 .fade-enter.fade-enter-active {
 	opacity: 1;
-	transition: all 2s ease-in;
+	transition: opacity 500ms cubic-bezier(.32,.33,.73,31);
+}
+
+.fade-exit {
+	opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+	opacity: 0.01;
+	transition: opacity 500ms cubic-bezier(.06,.09,0,1.05);
 }

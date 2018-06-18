@@ -3,3 +3,26 @@
 .slide {
 	background-color: $orange;
 }
+
+.slide-in {
+	animation: slide;
+}
+
+.slide-in.slide-in-active {
+
+}
+
+
+@keyframes slide {
+	0%, 25% {
+		opacity: .5;
+		transform: translateZ(-500px) translateX(200%);
+	}
+	75% {
+		opacity: .5;
+		transform: translateZ(-500px);
+	}
+	100% { opacity: 1;
+		transform: translateZ(0) translateX(0);
+	}
+}
