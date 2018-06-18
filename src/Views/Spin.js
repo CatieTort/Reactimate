@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
-
+import Button from '../Components/Button'
 
 class Spin extends Component {
 	render(){
 		return(
-			<div></div>
+			<div className="spin container">
+				<div className="heading">Spin Me</div>
+				<Button newClass={"nxtBtn"} href={'/scrolly'} btnText={'Next Page'} />
+			</div>
 		)
 	}
 }

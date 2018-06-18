@@ -7,9 +7,9 @@ class Button extends Component {
 	}
 
 	render(){
-		const { href, btnText, handleClick } = this.props
+		const { href, newClass, btnText, handleClick } = this.props
 		return(
-				<Link to={href ? href : "/"} className="button" onClick={handleClick}>
+				<Link to={href ? href : "/"} className={newClass ? `${newClass} button` : "button"} onClick={handleClick}>
 					<span className="button__text">{btnText}</span>
 				</Link>
 		)

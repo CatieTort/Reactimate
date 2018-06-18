@@ -1,9 +1,5 @@
 @import '../shared.scss';
 
 .home {
-	background-color: rgba($green, 0.7);
-
-	&__title {
-		text-shadow: 2px 1px $white;
-	}
+	background-color: $green;
 }

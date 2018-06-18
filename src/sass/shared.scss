@@ -7,7 +7,8 @@ $redish: #E71D36;
 $hot-pink: #ED217C;
 $blue: #090C9B;
 $orange: #FF8300;
-$purple: #590FD8;
+$purple: #8A4FFF;
+$teal: #55DBCB;
 
 html {
 	font-size: 62.5%;
@@ -29,9 +30,19 @@ body{
 
 .heading {
 	font-family: 'Raleway', sans-serif;
-	font-size: 4rem;
+	color: $white;
+	font-size: 6rem;
+	text-align: center;
+	text-shadow: 2px 1px $gray;
 }
 
 .text {
 	color: $gray;
+}
+
+.nxtBtn {
+	position: fixed;
+	bottom: 15px;
+	right: 25px;
+	align-self: flex-end;
 }
