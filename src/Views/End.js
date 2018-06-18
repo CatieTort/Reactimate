@@ -7,7 +7,7 @@ class End extends Component {
 		return(
 			<div className="end container">
 				<div className="heading">It's Over!</div>
-				<Button newClass={"nxtBtn"} href={'/'} btnText={'Go Home'} />
+				<Button newClass={"nxtBtn"} href={'/'} btnText={'Again'} />
 			</div>
 		)
 	}

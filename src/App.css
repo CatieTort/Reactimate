@@ -236,6 +236,10 @@ body {
 
 .home {
   background-color: #76EE00; }
+  .home .homeBtn {
+    position: fixed;
+    bottom: 15px;
+    right: 25px; }
 
 html {
   font-size: 62.5%; }
@@ -374,3 +378,36 @@ body {
 
 .spin {
   background-color: #8A4FFF; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 6rem;
+  text-align: center;
+  text-shadow: 2px 1px #4C4C4C; }
+
+.text {
+  color: #4C4C4C; }
+
+.nxtBtn {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  align-self: flex-end; }
+
+.end {
+  background-color: #55DBCB; }

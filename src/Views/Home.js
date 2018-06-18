@@ -6,7 +6,7 @@ class Home extends Component {
 		return(
 			<div className="home container">
 				<div className="heading">Home</div>
-				<Button newClass={"homeBtn"} href={'/bouncy'} btnText={"Let's Go"} />
+				<Button newClass={"homeBtn"} href={'/bouncy'} btnText={"Let's Do This"} />
 			</div>
 		)
 	}
