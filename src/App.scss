@@ -1,1 +1,12 @@
 @import "./sass/main.scss";
+
+
+.fade-enter {
+	opacity: 0;
+	z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+	opacity: 1;
+	transition: all 2s ease-in;
+}
